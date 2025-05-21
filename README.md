@@ -1,6 +1,9 @@
 # banking-dashboard-powerbi
 A Power BI dashboard project that analyzes banking transactions and customer account details to uncover insights on credit scores, loan amounts, account balances, and branch performance, etc.
 
+## 📄 Project Documentation
+For detailed analysis, insights, and project explanation, [click here to view the full project document](https://docs.google.com/document/d/1wEf2xSJJxtbxJO1mJBUR7nD72TfC0Qm_JyziYSfVzUI/edit?usp=sharing).
+
 ![Image Alt](https://github.com/mounika2906/banking-dashboard-powerbi/blob/9c9eee0aa07a37dd80af837fb6172271be1a2ed0/power%20bi%20dashboard.png)
 
 ## KPIs:
