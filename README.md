@@ -6,94 +6,108 @@ For detailed analysis, insights, and project explanation, [click here to view th
 
 ![Image Alt](https://github.com/mounika2906/banking-dashboard-powerbi/blob/9c9eee0aa07a37dd80af837fb6172271be1a2ed0/power%20bi%20dashboard.png)
 
-## KPIs:
-• Total Customers: 800
-• Active Customers: 626
-• Total Transactions: 988
-• Total Amount: $4.02M
-• Avg. Transaction: $4.07K
-• Peak Hour: 3 PM
+# 📊 Power BI Banking Dashboard
 
-## Insights:
-• Monthly transaction trends
-• Transaction types nearly equally split (~25% each)
-• Top branches handle up to ~$40K
-• Leading cities by volume: Sydney, Tokyo, Berlin
+## 📌 Introduction
 
-## Filters Available:
-• Year (2023–2025), Quarter (Q1–Q4), Status (Active, Dormant, Not Active)
+This Power BI project analyzes banking data from two sources: customer account details and transaction records. It helps convert raw financial data into meaningful insights to understand customer behavior, transaction patterns, and branch performance. The dashboard helps banks make data-driven decisions.
 
- ## Key Business Insights
+---
 
-### Customer Engagement
-Only 626 out of 800 customers are active.
-Improve with loyalty programs and targeted outreach.
+## ❓ Problem Statement
 
-### Transaction Types
-All types are evenly used.
-Promote profitable types like transfers and digital payments.
+Banks gather a lot of data, but without analysis, it's hard to extract value. Important questions like:
 
-### Branch Performance
-Top branches perform similarly.
-Learn from top branches and apply best practices across others.
+- Which customers are active?
+- When are transactions most frequent?
+- Which branches are performing well?
+- Are there any financial risks?
 
-### Seasonal Trends
-Drop in transactions mid-year.
-Boost activity with offers and seasonal campaigns.
+This dashboard aims to answer these questions by using simple visuals and key metrics. It helps banks improve customer service, manage risk, and plan strategies effectively.
 
-### City-wise Performance
-Sydney leads in transactions.
-Grow in weaker cities through localized marketing.
+---
 
-### Technology & Experience
-Avg. transaction is $4.07K.
-Improve app features and security for smoother experience.
+## 📈 Key Insights
 
-### Peak Usage
-Most transactions happen around 3 PM.
-Plan staff and tech to handle high traffic smoothly.
+### 🧍‍♂️ 1. Customer Engagement
+- **Total customers:** 800  
+- **Active customers:** 626  
+- Many customers are active, but some remain inactive.  
+✅ *Banks can use loyalty programs and marketing to re-engage them.*
 
-## Summary
-By focusing on customer engagement, optimizing transaction types, improving branch performance, identifying seasonal trends, expanding geographically, enhancing technology, and managing peak usage, banks can significantly improve operational efficiency and customer satisfaction.
+---
 
-### 1. Credit Score Analysis
-#### Credit Score Distribution:
-A majority of accounts have credit scores above 300, with significant counts in the >400, >500, and >600 ranges.
-The count of accounts decreases as the credit score threshold increases, particularly for scores >800, indicating fewer high-credit-risk clients.
-### 2. Account Age and Balance Correlation
-#### Scatter Plot Observations:
-There is a wide spread of accounts across different ages (around 45 to 70 years) with varying balances.
-The distribution suggests a possible mix of long-term and new account holders, indicating varied financial behaviors.
-### 3. Branch Performance
-#### Transaction Volume by Branch:
-Top Branch: Branch code 396 leads with the highest transaction volume and total value.
-Comparative Analysis: Other branches (e.g., 219, 57) also show significant transaction volumes, implying that these branches might be main business hubs.
-### 4. Currency Preferences
-#### Transaction Volume Analysis:
-British Pound (GBP) and Euro (EUR) transactions dominate, while transactions in Japanese Yen (JPY) are negligible.
-### 5. Seasonal Trends
-#### Monthly and Quarterly Trends:
-Overall transaction volume appears to fluctuate throughout the year, with peaks in certain months noted.
-Quarter-wise summary indicates a declining trend, suggesting seasonality or potential economic influences at play.
-### 6. Transaction Type Insights
-#### Amount Category Analysis
-High-value transactions are prevalent in deposits, which could signify higher trust or balance among customers opting for deposit accounts.
-Withdrawals consistently show substantial transaction amounts, hinting at customers drawing down their balances.
-### 7. Loan Amount and Credit Score Relation
-#### Scatter Plot Analysis:
-The relationship between loan amounts and credit scores demonstrates a diverse mix, with no clear correlation suggesting that higher loan amounts do not strictly correspond to higher credit scores.
-### 8. Risk Assessment
-#### Risk Levels:
-The majority of accounts fall under 'Low Risk' and 'Very Low Risk' categories, indicating strong financial health among customers.
-'Medium Risk' accounts are far fewer, which could help in prioritizing credit assessments.
-### 9. Average Balances by Account Type
-#### Comparison of Account Balances:
-Savings accounts have the highest average balance, followed closely by Credit accounts.
-Loans and Checking accounts have slightly lower averages, potentially indicating higher withdrawals or lower customer balances.
-### 10. Transaction Timing Insights
-#### Time of Day Analysis:
-Morning and Night transactions exhibit higher volumes as compared to Afternoon and Evening, suggesting customer transaction preferences are aligned with their daily activities.
-## Conclusion
-These insights can guide FinInsight Group in developing recommendations for banking institutions to enhance customer services, risk management, and service offerings based on observed trends and customer behaviors. By focusing on account age, transaction type preferences, and branch performance, banks can strategize their operations for better customer satisfaction and profitability.
+### 💳 2. Credit Score Distribution
+- Most customers have a credit score above 300.
+- Very few have scores above 800.  
+✅ *Helpful for identifying low-risk vs. high-risk clients.*
+
+---
+
+### 🧮 3. Account Age vs. Balance
+- Customers of all account ages show different balances.
+✅ *No strong link, but helps understand financial behavior.*
+
+---
+
+### 🏢 4. Branch Performance
+- Branch 396 has the highest transaction volume.
+✅ *Other branches like 219 and 57 are also performing well.*
+
+---
+
+### 💱 5. Currency Usage
+- Most transactions happen in **GBP** and **EUR**.
+✅ *JPY is rarely used.*
+
+---
+
+### 📆 6. Seasonal Trends
+- Transaction volume drops mid-year.
+✅ *Banks can plan offers or campaigns during slow months.*
+
+---
+
+### 💸 7. Transaction Type Analysis
+- Withdrawals and deposits are the most used types.
+✅ *High-value deposits suggest strong trust in the bank.*
+
+---
+
+### 🏦 8. Loan vs. Credit Score
+- No clear link between high loan amounts and high credit scores.
+✅ *Each case needs individual risk analysis.*
+
+---
+
+### ⚠️ 9. Risk Assessment
+- Most customers are in **Low** or **Very Low Risk** categories.
+✅ *Good overall financial health of customers.*
+
+---
+
+### 💰 10. Account Balance by Type
+- **Savings** and **Credit** accounts have higher balances.
+✅ *Loan and Checking accounts show lower averages.*
+
+---
+
+### ⏰ 11. Transaction Timing
+- Most transactions happen in the **Morning** and **Night**.
+✅ *Banks can manage resources better during these hours.*
+
+---
+
+## ✅ Conclusion
+
+This dashboard helps banks:
+
+- **Improve customer engagement** through insights on activity and behavior.
+- **Target the right customers** by analyzing risk, credit scores, and balances.
+- **Optimize operations** by monitoring branch and transaction trends.
+- **Plan marketing** around seasonal and city-based performance.
+- **Enhance customer experience** with better timing, service, and security.
+
+With clear visuals and data-driven insights, this dashboard supports smarter, faster decisions in the banking sector.
 
 
